@@ -1,0 +1,17 @@
+package com.k7it.java.lang;
+
+public class Singam {
+ static int n=5;
+	public static void main(String[] args) {
+		if(n/1==n) {
+			if(n%n==0) {
+				System.out.println("given number is a prime:"+n);
+			}
+			else {
+				
+				System.out.println("given number is not prime:"+n);
+			}
+		}
+	}
+
+}

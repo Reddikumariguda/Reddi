@@ -1,0 +1,19 @@
+package PackageReddi;
+
+ public enum Weekdays {
+     SUNDAY(3),MONDAAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAAY,SATURDAY;
+     Weekdays(int i){
+    	 System.out.println("no arg constructor");
+     }
+
+	Weekdays() {
+		
+	}
+
+	public static void main(String[] args) {
+    	 Weekdays w1 = Weekdays.SUNDAY;
+    	 System.out.println(w1);
+
+	}
+
+}

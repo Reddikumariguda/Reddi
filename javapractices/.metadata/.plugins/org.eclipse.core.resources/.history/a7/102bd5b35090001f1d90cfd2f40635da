@@ -1,0 +1,45 @@
+package PackageReddi;
+
+ /* public enum Weekdays {
+     SUNDAY(3),MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY;
+     Weekdays(int i){
+    	 System.out.println("weekday"+i);
+     }
+
+	Weekdays() {
+		System.out.println("no arg constructor");
+	}
+
+	public static void main(String[] args) {
+    	 Weekdays w1 = Weekdays.SUNDAY;
+    	 System.out.println(w1);
+
+	}
+
+} */
+public enum MonthDays {
+	 JAN(31),FEB(28),MAR(31),APR(30),MAY(31),JUN(30),JUL(31),AUG(31),
+	 SEP(30),OCT(31),NOV(30),DEC(31);
+
+	MonthDays(int i) {
+		
+		System.out.println("No of days in "+this+":"+i);
+	}
+		
+	
+		public static void main(String[] args) {
+			
+			WeekDays e1 = WeekDays.JUL;
+			System.out.println(e1);
+			
+			System.out.println("Name:"+e1.name());
+			
+			System.out.println("Ordinal:"+e1.ordinal());
+			System.out.println("Values:"+e1.values());
+			System.out.println("valueOf:"+e1.valueOf("SUNDAY"));
+			
+			MonthDays m = MonthDays.JAN;
+			
+		}
+	}
+}

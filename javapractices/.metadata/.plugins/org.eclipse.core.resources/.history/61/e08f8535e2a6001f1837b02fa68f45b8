@@ -1,0 +1,12 @@
+package com.k7it.java.lang;
+import java.util.*;
+public class ArrayList1 {
+     
+	public static void main(String[] args) {
+		ArrayList list1= new ArrayList();
+		list1.add("java");
+		list1.add("mongodb");
+		list1.add("sql");
+		list1.add("react");
+	}
+}

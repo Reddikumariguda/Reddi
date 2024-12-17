@@ -1,0 +1,11 @@
+package PackageReddi2;
+import PackageReddi.C;
+
+public class C1
+	public static void main(String[] args) {
+	C c1 = new C();
+	System.out.println(c1.i);
+	PackageReddi1.C c2 = new PackageReddi1.C();
+	System.out.println(c1.i);
+	}
+}

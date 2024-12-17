@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.k7it.MissingNumberFinding.java&apos; to &apos;FindMissingNumber.java&apos;&#x0D;&#x0A;- Original project: &apos;Collections&apos;&#x0D;&#x0A;- Original element: &apos;com.k7it.MissingNumberFinding.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.k7it.FindMissingNumber.java&apos;" description="Rename compilation unit &apos;MissingNumberFinding.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.k7it{MissingNumberFinding.java" name="FindMissingNumber.java" references="false" stamp="1732873550595" version="1.0"/>
+</session>

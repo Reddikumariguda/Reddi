@@ -1,0 +1,12 @@
+package PackageReddi;
+
+ Enum Weekdays {
+     SUNDAY,MONDAAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAAY,SATURDAY
+     
+	public static void main(String[] args) {
+    	 
+		
+
+	}
+
+}

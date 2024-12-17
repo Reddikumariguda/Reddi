@@ -1,0 +1,11 @@
+package com.k7it.calci_service;
+
+public class Utility {
+
+	public static void main(String[] args) {
+		ImplCalciService c1=new ImplCalciService();
+        System.out.println(c1.add(50, 30));
+        System.out.println(c1.sub(50, 30));
+	}
+
+}

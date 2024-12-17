@@ -1,0 +1,13 @@
+package com.k7it.java.lang;
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+	     int i=10;
+	     Integer i1=new Integer(i);
+         double d=20.35;
+         Double d1=new Double(d);
+         String s="reddi";
+	}
+
+}

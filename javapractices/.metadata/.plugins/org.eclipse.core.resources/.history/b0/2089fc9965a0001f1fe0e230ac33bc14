@@ -1,0 +1,13 @@
+package com.k7it.java.lang;
+
+public class Singam {
+int n=5;
+	public static void main(String[] args) {
+		if(1%n==n) {
+			if(n/n==0) {
+				System.out.println();
+			}
+		}
+	}
+
+}

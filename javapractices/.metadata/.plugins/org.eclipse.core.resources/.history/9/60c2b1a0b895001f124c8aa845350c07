@@ -1,0 +1,12 @@
+package PackageReddi2;
+
+public class StringDemo {
+	String s1="reddi";
+	String s2=new String("singam");
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
